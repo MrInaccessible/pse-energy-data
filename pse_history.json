@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T21:51:59.550450",
+  "generated_at": "2026-10-23T21:57:44.248479",
   "days_retained": 1,
   "days": [
     {
       "delivery_date": "2026-10-24",
-      "captured_at": "2026-10-23T21:51:59.550032",
+      "captured_at": "2026-10-23T21:57:44.235934",
       "source": "pk5l-wp",
       "granularity_min": 60,
       "summary": {
@@ -294,7 +294,7 @@
           "plan_dtime": "2026-10-24 17:00:00",
           "plan_dtime_utc": "2026-10-24 15:00:00",
           "period": "16 - 17",
-          "publication_ts": "2026-10-23 21:42:21.108",
+          "publication_ts": "2026-10-23 21:52:22.108",
           "pv_mw": 2172.0,
           "wind_mw": 3928.0,
           "pv_wind_mw": 6100.0,
@@ -302,7 +302,7 @@
           "residual_load_mw": 10563.0,
           "planned_exchange_mw": 186.0,
           "req_pow_res_mw": 1940.0,
-          "surplus_cap_avail_tso_mw": 3001.0,
+          "surplus_cap_avail_tso_mw": 2999.0,
           "unavailable_operational_mw": 4033.0,
           "planned_shutdown_restrictions_mw": 13282.0
         },
