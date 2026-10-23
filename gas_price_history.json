@@ -3,7 +3,7 @@
   "source": "TGE / energy.instrat.pl",
   "dataset": "TGEgasDA",
   "unit": "PLN/MWh",
-  "generated_at": "2026-10-23T22:13:11.002854",
+  "generated_at": "2026-10-23T22:19:16.129485",
   "endpoint": "https://energy-api.instrat.pl/api/prices/gas_price_rdn_daily",
   "summary": {
     "first_date": "2016-01-02",
