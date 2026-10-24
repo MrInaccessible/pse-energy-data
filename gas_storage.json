@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "GIE AGSI",
-  "generated_at": "2026-10-23T22:19:04.546091",
+  "generated_at": "2026-10-24T11:55:30.418190",
   "countries": {
     "PL": {
       "country": "Polska",
@@ -38,27 +38,8 @@
         "avg_injection_30d_gwh_d": 32.93366666666667,
         "avg_withdrawal_30d_gwh_d": 31.13999999999999
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-08-11 15:00:11",
-          "gas_in_storage_twh": 30.1558,
-          "annual_consumption_twh": 241.5,
-          "storage_coverage_days_avg": 45.57708902691512,
-          "working_gas_volume_twh": 36.8491,
-          "full_pct": 81.84,
-          "injection_gwh_d": 196.73,
-          "withdrawal_gwh_d": 0.0,
-          "net_withdrawal_gwh_d": -196.7,
-          "trend_pct_point": 0.53,
-          "injection_capacity_gwh_d": 359.01,
-          "withdrawal_capacity_gwh_d": 595.31,
-          "contracted_capacity_twh": 36.5015,
-          "available_capacity_twh": 0.3476,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -1827,27 +1808,8 @@
         "avg_injection_30d_gwh_d": 429.1580000000001,
         "avg_withdrawal_30d_gwh_d": 79.22
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-07-27 14:11:26",
-          "gas_in_storage_twh": 112.6447,
-          "annual_consumption_twh": 903.9,
-          "storage_coverage_days_avg": 45.48657539550835,
-          "working_gas_volume_twh": 246.489,
-          "full_pct": 45.7,
-          "injection_gwh_d": 224.82,
-          "withdrawal_gwh_d": 30.8,
-          "net_withdrawal_gwh_d": -194.0,
-          "trend_pct_point": 0.08,
-          "injection_capacity_gwh_d": 4297.72,
-          "withdrawal_capacity_gwh_d": 7067.36,
-          "contracted_capacity_twh": 192.472,
-          "available_capacity_twh": 59.3039,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -3616,27 +3578,8 @@
         "avg_injection_30d_gwh_d": 58.187,
         "avg_withdrawal_30d_gwh_d": 42.46666666666666
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-08-13 08:00:19",
-          "gas_in_storage_twh": 26.1272,
-          "annual_consumption_twh": 77.05,
-          "storage_coverage_days_avg": 123.76934458144062,
-          "working_gas_volume_twh": 45.3039,
-          "full_pct": 57.67,
-          "injection_gwh_d": 168.4,
-          "withdrawal_gwh_d": 0.2,
-          "net_withdrawal_gwh_d": -168.2,
-          "trend_pct_point": 0.37,
-          "injection_capacity_gwh_d": 564.33,
-          "withdrawal_capacity_gwh_d": 733.7,
-          "contracted_capacity_twh": 42.3603,
-          "available_capacity_twh": 2.9436,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -5405,27 +5348,8 @@
         "avg_injection_30d_gwh_d": 47.661999999999985,
         "avg_withdrawal_30d_gwh_d": 48.023333333333326
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-08-04 10:53:11",
-          "gas_in_storage_twh": 15.5054,
-          "annual_consumption_twh": 49.45,
-          "storage_coverage_days_avg": 114.44835187057633,
-          "working_gas_volume_twh": 36.7358,
-          "full_pct": 42.21,
-          "injection_gwh_d": 99.96,
-          "withdrawal_gwh_d": 26.4,
-          "net_withdrawal_gwh_d": -73.6,
-          "trend_pct_point": 0.2,
-          "injection_capacity_gwh_d": 541.52,
-          "withdrawal_capacity_gwh_d": 687.4,
-          "contracted_capacity_twh": 27.5719,
-          "available_capacity_twh": 9.1639,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -7194,27 +7118,8 @@
         "avg_injection_30d_gwh_d": 134.25466666666665,
         "avg_withdrawal_30d_gwh_d": 0.12000000000000005
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-07-24 09:25:50",
-          "gas_in_storage_twh": 90.4549,
-          "annual_consumption_twh": 228.85,
-          "storage_coverage_days_avg": 144.26934017915664,
-          "working_gas_volume_twh": 320.2369,
-          "full_pct": 28.25,
-          "injection_gwh_d": 457.32,
-          "withdrawal_gwh_d": 1.3,
-          "net_withdrawal_gwh_d": -456.0,
-          "trend_pct_point": 0.14,
-          "injection_capacity_gwh_d": 2234.05,
-          "withdrawal_capacity_gwh_d": 1675.53,
-          "contracted_capacity_twh": null,
-          "available_capacity_twh": null,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -8983,27 +8888,8 @@
         "avg_injection_30d_gwh_d": 20.167000000000005,
         "avg_withdrawal_30d_gwh_d": 6.45
       },
-      "history_days": 92,
+      "history_days": 91,
       "history": [
-        {
-          "gas_day_start": "2026-07-23",
-          "gas_day_end": "2026-07-24",
-          "updated_at": "2026-07-24 10:20:03",
-          "gas_in_storage_twh": 10.8465,
-          "annual_consumption_twh": 9.2,
-          "storage_coverage_days_avg": 430.323097826087,
-          "working_gas_volume_twh": 24.4053,
-          "full_pct": 44.44,
-          "injection_gwh_d": 62.81,
-          "withdrawal_gwh_d": 0.0,
-          "net_withdrawal_gwh_d": -62.8,
-          "trend_pct_point": 0.26,
-          "injection_capacity_gwh_d": 160.0,
-          "withdrawal_capacity_gwh_d": 74.0,
-          "contracted_capacity_twh": 16.3953,
-          "available_capacity_twh": 8.01,
-          "status": "C"
-        },
         {
           "gas_day_start": "2026-07-24",
           "gas_day_end": "2026-07-25",
@@ -10773,27 +10659,8 @@
       "avg_injection_30d_gwh_d": 2208.557666666667,
       "avg_withdrawal_30d_gwh_d": 575.2966666666666
     },
-    "history_days": 92,
+    "history_days": 91,
     "history": [
-      {
-        "gas_day_start": "2026-07-23",
-        "gas_day_end": "2026-07-24",
-        "updated_at": "2026-09-28 12:33:34",
-        "gas_in_storage_twh": 619.5878,
-        "annual_consumption_twh": 3519.0,
-        "storage_coverage_days_avg": 64.26528758169935,
-        "working_gas_volume_twh": 1130.2074,
-        "full_pct": 54.82,
-        "injection_gwh_d": 2814.6,
-        "withdrawal_gwh_d": 369.1,
-        "net_withdrawal_gwh_d": -2445.5,
-        "trend_pct_point": 0.21,
-        "injection_capacity_gwh_d": 12251.55,
-        "withdrawal_capacity_gwh_d": 20017.63,
-        "contracted_capacity_twh": 1024.4662,
-        "available_capacity_twh": 110.2501,
-        "status": "E"
-      },
       {
         "gas_day_start": "2026-07-24",
         "gas_day_end": "2026-07-25",
