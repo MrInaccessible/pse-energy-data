@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "degraded",
   "source": "ENTSOG Transparency Platform",
   "operator": "GAZ-SYSTEM",
   "operator_key": "PL-TSO-0002",
@@ -2998,5 +2998,23 @@
   "history": {
     "file": "gas_history.json",
     "days_retained": 40
-  }
+  },
+  "stale": true,
+  "degraded_at": "2026-10-27T12:22:51.712222",
+  "last_good_generated_at": "2026-10-26T11:55:32.226720",
+  "fetch_errors": [
+    "Faxe / Baltic Pipe entry: po 3 próbach: 502 Server Error: Bad Gateway for url: https://transparency.entsog.eu/api/v1/operationaldatas?pointDirection=PL-TSO-0002ITP-10009entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1",
+    "Faxe / Baltic Pipe exit: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Read timed out. (read timeout=45)",
+    "GCP GAZ-SYSTEM/ONTRAS entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Read timed out. (read timeout=45)",
+    "GCP GAZ-SYSTEM/ONTRAS exit: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002ITP-00497exit&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdff57280>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))",
+    "Santaka entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002ITP-00556entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdff3e9a0>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))",
+    "Vyrava entry: po 3 próbach: 502 Server Error: Bad Gateway for url: https://transparency.entsog.eu/api/v1/operationaldatas?pointDirection=PL-TSO-0002ITP-00177entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1",
+    "GCP GAZ-SYSTEM/UA TSO exit: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Read timed out. (read timeout=45)",
+    "Cieszyn / Cesky Tesin entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002ITP-00158entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdfcca2e0>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))",
+    "Domestic Gas Fields entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002PRD-00153entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdfcba160>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))",
+    "GIM Kawerna entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002UGS-00424entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdfcba8e0>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))",
+    "GIM Kawerna exit: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Read timed out. (read timeout=45)",
+    "GIM Sanok entry: po 3 próbach: HTTPSConnectionPool(host='transparency.entsog.eu', port=443): Max retries exceeded with url: /api/v1/operationaldatas?pointDirection=PL-TSO-0002UGS-00425entry&from=2026-10-19&to=2026-10-28&indicator=Physical+Flow%2CNomination%2CRenomination%2CFirm+Technical%2CFirm+Booked%2CFirm+Available&periodType=day&limit=-1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fecdff49670>, 'Connection to transparency.entsog.eu timed out. (connect timeout=45)'))"
+  ],
+  "degraded_reason": "Nie udało się pobrać kompletnego zestawu punktów ENTSOG. Zachowano ostatni pełny snapshot zamiast publikować zaniżone dane."
 }
