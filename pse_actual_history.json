@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T11:55:13.701533",
-  "days_retained": 5,
+  "generated_at": "2026-10-28T11:55:14.442587",
+  "days_retained": 6,
   "days": [
     {
       "date": "2026-10-22",
@@ -689,6 +689,144 @@
           "category": "hydro",
           "energy_mwh": 2462.8115000000003,
           "share_pct": 0.5320229546159595
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "summary": {
+        "demand_energy_mwh": 482449.3810000003,
+        "generation_by_fuel_mwh": 484543.51925000007,
+        "max_demand_mw": 22887.01,
+        "max_demand_time": "2026-10-27 17:30:00",
+        "max_pv_wind_share_pct": 60.076998260973895,
+        "max_pv_wind_share_time": "2026-10-27 12:15:00"
+      },
+      "fuel_mix": [
+        {
+          "fuel": "hard_coal",
+          "label": "Węgiel kamienny",
+          "energy_mwh": 167496.41325000007,
+          "share_pct": 34.56787813595343
+        },
+        {
+          "fuel": "lignite",
+          "label": "Węgiel brunatny",
+          "energy_mwh": 96011.04599999997,
+          "share_pct": 19.814741542433698
+        },
+        {
+          "fuel": "wind_onshore",
+          "label": "Wiatr",
+          "energy_mwh": 78787.77600000004,
+          "share_pct": 16.26020633233349
+        },
+        {
+          "fuel": "solar",
+          "label": "PV",
+          "energy_mwh": 63849.71100000001,
+          "share_pct": 13.177291298587523
+        },
+        {
+          "fuel": "natural_gas",
+          "label": "Gaz ziemny",
+          "energy_mwh": 40384.41375000001,
+          "share_pct": 8.334527683397553
+        },
+        {
+          "fuel": "other",
+          "label": "Inne",
+          "energy_mwh": 11752.9095,
+          "share_pct": 2.4255632431513523
+        },
+        {
+          "fuel": "biomass",
+          "label": "Biomasa",
+          "energy_mwh": 8546.809250000004,
+          "share_pct": 1.7638888790070228
+        },
+        {
+          "fuel": "pumped_storage",
+          "label": "Hydro szczytowo-pompowe",
+          "energy_mwh": 4568.02475,
+          "share_pct": 0.9427480852639635
+        },
+        {
+          "fuel": "oil",
+          "label": "Olej",
+          "energy_mwh": 4468.570749999998,
+          "share_pct": 0.9222227875251883
+        },
+        {
+          "fuel": "coal_derived_gas",
+          "label": "Gaz z węgla",
+          "energy_mwh": 4216.804749999999,
+          "share_pct": 0.8702633679895201
+        },
+        {
+          "fuel": "other_renewable",
+          "label": "Inne OZE",
+          "energy_mwh": 1957.2747499999991,
+          "share_pct": 0.40394199328670494
+        },
+        {
+          "fuel": "hydro_run_of_river",
+          "label": "Hydro przepływowe",
+          "energy_mwh": 1498.6625000000001,
+          "share_pct": 0.3092936837375727
+        },
+        {
+          "fuel": "hydro_reservoir",
+          "label": "Hydro zbiornikowe",
+          "energy_mwh": 1005.1029999999995,
+          "share_pct": 0.20743296733299552
+        }
+      ],
+      "mix_chart": [
+        {
+          "category": "hard_coal",
+          "energy_mwh": 167496.41325000007,
+          "share_pct": 34.56787813595343
+        },
+        {
+          "category": "lignite",
+          "energy_mwh": 96011.04599999997,
+          "share_pct": 19.814741542433698
+        },
+        {
+          "category": "wind",
+          "energy_mwh": 78787.77600000004,
+          "share_pct": 16.26020633233349
+        },
+        {
+          "category": "solar",
+          "energy_mwh": 63849.71100000001,
+          "share_pct": 13.177291298587523
+        },
+        {
+          "category": "natural_gas",
+          "energy_mwh": 40384.41375000001,
+          "share_pct": 8.334527683397553
+        },
+        {
+          "category": "other",
+          "energy_mwh": 20438.284999999996,
+          "share_pct": 4.218049398666061
+        },
+        {
+          "category": "biomass_other_renewable",
+          "energy_mwh": 10504.084000000003,
+          "share_pct": 2.167830872293728
+        },
+        {
+          "category": "pumped_storage",
+          "energy_mwh": 4568.02475,
+          "share_pct": 0.9427480852639635
+        },
+        {
+          "category": "hydro",
+          "energy_mwh": 2503.7654999999995,
+          "share_pct": 0.5167266510705683
         }
       ]
     }
